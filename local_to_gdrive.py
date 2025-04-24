@@ -1,3 +1,14 @@
+"""
+Enable Google Drive API:
+1. Go to the Google Cloud Console.
+2. Create a new project or select an existing one.
+3. Enable the "Google Drive API" for your project.
+4. Create credentials (OAuth 2.0 Client ID) and download the credentials JSON file.
+
+pip install google-api-python-client google-auth-httplib2 google-auth-oauthlib
+"""
+
+
 import os
 import pickle
 
